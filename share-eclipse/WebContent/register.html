@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link href="css/byronlee_share.css" type="text/css"  rel="stylesheet">
+<script type="text/javascript" src="js/jquery-1.7.2.js"></script>
+<script type="text/javascript" src="js/jquery.form.js"></script>
+<script type="text/javascript" src="js/byronlee_share.js"></script>
+<link href="css/byronlee_apprise.css" type="text/css"  rel="stylesheet">
+<script type="text/javascript" src="js/byronlee_apprise.js"></script>
+<link rel="shortcut icon" href="images/go.png" type="image/x-icon" />
+<title>帐号注册</title>
+</head>
+<body class="bg">
+ <div class="login_all">
+ 
+  <div class="logo">
+      <img src="images/logo.png"/>
+      <div>
+      <p>Share</p>   
+      </div>
+   </div>
+     <form action="Register" method="post" id="login_form" style="font-size:18px;color:#888;" >
+     username <br /><input type="text" name="username" class="user regi_text"><br /><br />
+     password <br /><input type="password" name="password" class="pass regi_text"><br /><br />
+     confirm <br /><input type="password" name="confirm" class="repass regi_text"><br /><br />
+     
+     
+     <input type="submit" value="Rigster" class="login-btn" onclick="doregister()" style="float: right;margin-right: 15px;">
+     <input type="button" value="Login" class="login-btn" onclick="login()">
+
+   </form>
+   </div>
+</body>
+</html>
